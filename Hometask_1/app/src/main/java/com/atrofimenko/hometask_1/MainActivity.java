@@ -16,14 +16,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button DBtn =(Button) findViewById(R.id.Show_btn);
-        final TextView Text_View =(TextView) findViewById(R.id.TView);
+        Button showBtn =(Button) findViewById(R.id.show_btn);
+        final TextView textview =(TextView) findViewById(R.id.TView);
         final ImageView imgView = (ImageView) findViewById(R.id.imageView_android);
         imgView.setImageResource(R.drawable.android);
         imgView.setVisibility(View.GONE);
-        DBtn.setOnClickListener(new View.OnClickListener(){
+        showBtn.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v) {
-                Text_View.setText("Hello:)");
+                textview.setText("Hello:)");
                 imgView.setVisibility(View.VISIBLE);
             }
         });

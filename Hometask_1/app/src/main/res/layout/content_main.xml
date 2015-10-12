@@ -14,7 +14,7 @@
         android:layout_height="60dp"
         android:text="Show"
         android:textSize="25dp"
-        android:id="@+id/Show_btn"
+        android:id="@+id/show_btn"
         android:layout_marginBottom="46dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
