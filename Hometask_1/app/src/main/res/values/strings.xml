@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">Hometask_1</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_main_activity_start">MainActivityStart</string>
+    <string name="title_activity_main_activity__hw2">MainActivity_HW2</string>
+    <string name="textfibonacci">Ввести номер элемента последовательности Фибоначчи</string>
+    <string name="textFactorial">Ввести число факториал которого нужно найти</string>
+    <string name="textBtn_find">Найти</string>
+    <string name="dialog_err_title">Ошибка!</string>
+    <string name="dialog_err1_message">Введите значение</string>
 </resources>
