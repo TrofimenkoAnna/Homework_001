@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Button hw1_btn = (Button) findViewById(R.id.hw1_btn);
         Button hw2_btn = (Button) findViewById(R.id.hw2_btn);
+        Button hw3_btn = (Button) findViewById(R.id.hw3_btn);
         hw1_btn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view)
             {
@@ -26,6 +27,14 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view)
             {
                 Intent intent = new Intent(MainActivity.this, Homework2_Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        hw3_btn.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view)
+            {
+                Intent intent = new Intent(MainActivity.this, Homework3_Activity.class);
                 startActivity(intent);
             }
         });

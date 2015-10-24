@@ -20,12 +20,17 @@
         </activity>
         <activity
             android:name=".Homework1_Activity"
-            android:label="@string/title_activity_main_activity_start"
+            android:label="@string/title_activity_main_activity__hw1"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
             android:name=".Homework2_Activity"
             android:label="@string/title_activity_main_activity__hw2"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".Homework3_Activity"
+            android:label="@string/title_activity_homework3_"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
     </application>
