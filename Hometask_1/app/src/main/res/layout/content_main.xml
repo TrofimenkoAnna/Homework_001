@@ -38,4 +38,14 @@
         android:layout_centerVertical="true"
         android:layout_alignParentRight="true"/>
 
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="Homework 4"
+        android:textSize="25dp"
+        android:id="@+id/hw4_btn"
+        android:layout_below="@+id/hw3_btn"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"/>
+
 </RelativeLayout>
