@@ -37,6 +37,16 @@
         </activity>
         <activity android:name=".Homework4_Activity" >
         </activity>
+        <activity android:name=".Homework5_Activity" >
+        </activity>
+        <activity android:name=".Animation_1_Fragment" >
+        </activity>
+        <activity android:name=".Animation_2_Fragment" >
+        </activity>
+        <activity android:name=".Animation_3_Fragment" >
+        </activity>
+        <activity android:name=".Animation_4_Fragment" >
+        </activity>
     </application>
 
 </manifest>

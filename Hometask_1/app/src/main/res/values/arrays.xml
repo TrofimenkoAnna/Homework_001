@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="homework_array">
+        <item>Homework 1</item>
+        <item>Homework 2</item>
+        <item>Homework 3</item>
+        <item>Homework 4</item>
+        <item>Homework 5</item>
+    </string-array>
+
+
+</resources>

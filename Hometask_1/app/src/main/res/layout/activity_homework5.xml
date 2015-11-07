@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.atrofimenko.hometask_1.Homework5_Activity">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_anim"
+        android:text="Animation"
+        android:textSize="25sp"
+        android:textAlignment="center"/>
+    <Button
+        android:id="@+id/btn_FadeIn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Fade in"
+        android:layout_above="@+id/btn_FadeOut"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:id="@+id/btn_FadeOut"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Fade Out"
+        android:layout_above="@+id/btn_ZoomIn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:id="@+id/btn_ZoomIn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Zoom In"
+        android:layout_above="@+id/btn_Blink"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:id="@+id/btn_Blink"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Blink"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="57dp" />
+
+</RelativeLayout>
