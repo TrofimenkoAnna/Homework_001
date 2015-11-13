@@ -4,10 +4,12 @@ import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+import android.support.v4.app.NavUtils;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
@@ -28,6 +30,9 @@ public class Homework5_Activity extends AppCompatActivity implements Animation.A
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_homework5);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         Button btn_FadeIn = (Button) findViewById(R.id.btn_FadeIn);
         Button btn_FadeOut = (Button) findViewById(R.id.btn_FadeOut);
         Button btn_ZoomIn = (Button) findViewById(R.id.btn_ZoomIn);
@@ -98,5 +103,17 @@ public class Homework5_Activity extends AppCompatActivity implements Animation.A
 
     @Override
     public void onAnimationStart(Animation animation) {
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        finish();
+    }
+
+    @Override
+    public boolean onSupportNavigateUp() {
+        onBackPressed();
+        return super.onSupportNavigateUp();
     }
 }

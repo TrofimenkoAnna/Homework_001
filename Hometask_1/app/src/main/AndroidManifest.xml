@@ -47,6 +47,18 @@
         </activity>
         <activity android:name=".Animation_4_Fragment" >
         </activity>
+        <activity android:name=".Homework6_Activity" >
+        </activity>
+        <activity android:name=".Fragment1_HW6" >
+        </activity>
+        <activity android:name=".Fragment2_HW6" >
+        </activity>
+        <activity android:name=".Homework6_SecondActivity" >
+        </activity>
+        <activity android:name=".Fragment_list" >
+        </activity>
+        <activity android:name=".Fragment_details" >
+        </activity>
     </application>
 
 </manifest>
